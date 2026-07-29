@@ -3,12 +3,12 @@ const revealItems = document.querySelectorAll(".reveal");
 const slides = document.querySelectorAll(".slide");
 
 const routes = {
-  home: { path: "/", title: "SOLVS Ventures" },
-  "one-of-none": { path: "/", title: "SOLVS Ventures" },
-  investments: { path: "/investments", title: "Investments | SOLVS Ventures" },
-  company: { path: "/about-us", title: "About Us | SOLVS Ventures" },
-  about: { path: "/team", title: "Team | SOLVS Ventures" },
-  contact: { path: "/contact", title: "Contact | SOLVS Ventures" }
+  home: { path: "/", title: "Solus Ventures | Venture Capital for One-of-None Companies" },
+  "one-of-none": { path: "/", title: "Solus Ventures | Venture Capital for One-of-None Companies" },
+  investments: { path: "/investments", title: "Investments | Solus Ventures" },
+  company: { path: "/about-us", title: "About Solus Ventures | One-of-None Venture Capital" },
+  about: { path: "/team", title: "Connor Cinquegrana | Founder of Solus Ventures" },
+  contact: { path: "/contact", title: "Contact | Solus Ventures" }
 };
 
 const pathToSlide = {
