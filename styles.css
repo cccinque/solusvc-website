@@ -158,6 +158,7 @@ body.is-dark-slide .site-nav a:focus-visible {
 .logo-slide .center-logo {
   z-index: 2;
   width: min(410px, 64vw);
+  transform: translateY(-28px);
 }
 
 .logo-slide .center-logo img {
@@ -444,6 +445,14 @@ body.is-dark-slide .site-nav a:focus-visible {
   transform: translateY(0);
 }
 
+.logo-slide .center-logo.reveal {
+  transform: translateY(-10px);
+}
+
+.logo-slide .center-logo.reveal.is-visible {
+  transform: translateY(-28px);
+}
+
 @media (max-width: 760px) {
   html {
     scroll-snap-type: none;
@@ -495,7 +504,8 @@ body.is-dark-slide .site-nav a:focus-visible {
     opacity: 0.18;
   }
 
-  .logo-slide .center-logo {
+  .logo-slide .center-logo.reveal,
+  .logo-slide .center-logo.reveal.is-visible {
     transform: translateY(-60px);
   }
 
