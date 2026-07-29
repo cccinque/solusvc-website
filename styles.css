@@ -391,34 +391,30 @@ body.is-dark-slide .site-nav a:focus-visible {
   width: 200px;
   height: 50px;
   margin-left: -100px;
+  display: grid;
+  place-items: center;
+  color: var(--navy);
   transform: none;
   animation: arrowPulse 1.8s ease-in-out infinite;
 }
 
-.scroll-arrow::before,
-.scroll-arrow::after {
-  content: "";
-  position: absolute;
-  top: 27px;
-  left: 50%;
-  width: 55px;
-  height: 3px;
-  background: var(--navy);
+.scroll-arrow svg {
+  display: block;
+  width: 110px;
+  height: 32px;
+  overflow: visible;
 }
 
-.scroll-arrow::before {
-  transform: translateX(-100%) rotate(25deg);
-  transform-origin: right center;
+.scroll-arrow path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
 }
 
-.scroll-arrow::after {
-  transform: rotate(-25deg);
-  transform-origin: left center;
-}
-
-.investments-section .scroll-arrow::before,
-.investments-section .scroll-arrow::after {
-  background: var(--white);
+.investments-section .scroll-arrow {
+  color: var(--white);
 }
 
 @keyframes arrowPulse {
@@ -503,7 +499,7 @@ body.is-dark-slide .site-nav a:focus-visible {
     transform: translateY(-60px);
   }
 
-  .company-section .scroll-arrow {
+  .company-slide .scroll-arrow {
     bottom: 12px;
   }
 
