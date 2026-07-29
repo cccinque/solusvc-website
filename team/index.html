@@ -22,18 +22,38 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Solus Ventures",
-        "alternateName": "SOLVS Ventures",
-        "url": "https://solusvc.com/",
-        "logo": "https://solusvc.com/assets/solvs-logo.png",
-        "description": "A venture capital firm investing in one-of-none private technology companies across frontier tech, AI, aerospace, defense, and proprietary data.",
-        "founder": {
-          "@type": "Person",
-          "name": "Connor Cinquegrana",
-          "jobTitle": "Founder and Managing Partner",
-          "sameAs": "https://www.linkedin.com/in/connor-cinquegrana-710a09183/"
-        }
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "https://solusvc.com/team/#profile",
+            "url": "https://solusvc.com/team/",
+            "name": "Connor Cinquegrana | Founder of Solus Ventures",
+            "mainEntity": {
+              "@id": "https://solusvc.com/team/#connor-cinquegrana"
+            },
+            "isPartOf": {
+              "@id": "https://solusvc.com/#website"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://solusvc.com/team/#connor-cinquegrana",
+            "name": "Connor Cinquegrana",
+            "jobTitle": "Founder and Managing Partner",
+            "worksFor": {
+              "@id": "https://solusvc.com/#organization"
+            },
+            "sameAs": "https://www.linkedin.com/in/connor-cinquegrana-710a09183/"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://solusvc.com/#organization",
+            "name": "Solus Ventures",
+            "alternateName": "SOLVS Ventures",
+            "url": "https://solusvc.com/",
+            "logo": "https://solusvc.com/assets/solvs-logo.png"
+          }
+        ]
       }
     </script>
     <link rel="preload" href="/assets/solvs-logo.png" as="image">
