@@ -12,3 +12,12 @@ Solus Ventures focuses on category-defining companies across frontier technology
 - [Venture capital perspectives](https://solusvc.com/insights/)
 - [Team](https://solusvc.com/team/)
 - [Contact](https://solusvc.com/contact/)
+
+## Solus Ventures Perspectives
+
+- [One-of-none companies: a venture capital framework](https://solusvc.com/insights/one-of-none-companies/)
+- [Frontier technology investing: AI, aerospace, and defense](https://solusvc.com/insights/frontier-technology-investing/)
+- [Private technology underwriting for venture capital](https://solusvc.com/insights/private-technology-underwriting/)
+- [Artificial intelligence investing: evaluating durable advantage](https://solusvc.com/insights/artificial-intelligence-investing/)
+- [Defense technology investing: from mission need to deployment](https://solusvc.com/insights/defense-technology-investing/)
+- [Aerospace investing: milestones, manufacturing, and markets](https://solusvc.com/insights/aerospace-investing/)
