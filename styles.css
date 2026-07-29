@@ -357,6 +357,32 @@ body.is-dark-slide .site-nav a:focus-visible {
   line-height: 1.52;
 }
 
+.contact-slide {
+  background:
+    radial-gradient(ellipse at 50% 48%, #ffffff 0%, #f5f7f9 52%, #d9e3eb 100%),
+    var(--white);
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-content img {
+  display: block;
+  width: min(390px, 66vw);
+  height: auto;
+}
+
+.contact-content p {
+  margin: 28px 0 0;
+  color: var(--navy);
+  font-size: clamp(14px, 1.25vw, 18px);
+  letter-spacing: 0.06em;
+}
+
 .scroll-arrow {
   position: absolute;
   bottom: 30px;
@@ -436,10 +462,14 @@ body.is-dark-slide .site-nav a:focus-visible {
   }
 
   .site-nav {
-    right: 16px;
+    right: 14px;
     top: 18px;
-    gap: 10px;
-    font-size: 11px;
+    gap: 12px;
+    font-size: 10px;
+  }
+
+  .site-nav a:first-child {
+    display: none;
   }
 
   .slide {
@@ -447,8 +477,15 @@ body.is-dark-slide .site-nav a:focus-visible {
     padding: 112px 24px 52px;
   }
 
+  .logo-slide {
+    background-color: #9eb7cc;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
   .hero-content h1 {
-    font-size: clamp(62px, 18vw, 92px);
+    font-size: clamp(44px, 13.5vw, 56px);
+    white-space: nowrap;
   }
 
   .investment-grid,
@@ -461,7 +498,15 @@ body.is-dark-slide .site-nav a:focus-visible {
   }
 
   .company-copy h2 {
-    font-size: clamp(18px, 4.8vw, 32px);
+    width: min(340px, 100%);
+    font-size: clamp(34px, 10vw, 44px);
+    line-height: 1.02;
+    white-space: normal;
+  }
+
+  .company-copy p {
+    font-size: 17px;
+    line-height: 1.48;
   }
 
   .founder-layout {
@@ -470,6 +515,16 @@ body.is-dark-slide .site-nav a:focus-visible {
 
   .founder-photo img {
     max-height: none;
+  }
+
+  .contact-content img {
+    width: min(260px, 68vw);
+  }
+
+  .contact-content p {
+    margin-top: 22px;
+    font-size: 14px;
+    letter-spacing: 0.035em;
   }
 }
 

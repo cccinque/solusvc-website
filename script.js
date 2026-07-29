@@ -7,7 +7,8 @@ const routes = {
   "one-of-none": { path: "/", title: "SOLVS Ventures" },
   investments: { path: "/investments", title: "Investments | SOLVS Ventures" },
   company: { path: "/about-us", title: "About Us | SOLVS Ventures" },
-  about: { path: "/team", title: "Team | SOLVS Ventures" }
+  about: { path: "/team", title: "Team | SOLVS Ventures" },
+  contact: { path: "/team", title: "Team | SOLVS Ventures" }
 };
 
 const pathToSlide = {
