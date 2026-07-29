@@ -478,9 +478,29 @@ body.is-dark-slide .site-nav a:focus-visible {
   }
 
   .logo-slide {
-    background-color: #9eb7cc;
+    background-color: #8faabd;
+    background-image: url("/assets/hero-background-bond-mobile.jpg");
+    background-blend-mode: normal;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
+  }
+
+  .logo-slide::before {
+    display: block;
+    background: #4f7692;
+    mix-blend-mode: color;
+    opacity: 0.9;
+  }
+
+  .logo-slide::after {
+    display: block;
+    background: #416985;
+    mix-blend-mode: multiply;
+    opacity: 0.18;
+  }
+
+  .company-section .scroll-arrow {
+    bottom: 12px;
   }
 
   .hero-content h1 {
