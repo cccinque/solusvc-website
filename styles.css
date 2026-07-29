@@ -499,6 +499,10 @@ body.is-dark-slide .site-nav a:focus-visible {
     opacity: 0.18;
   }
 
+  .logo-slide .center-logo {
+    transform: translateY(-60px);
+  }
+
   .company-section .scroll-arrow {
     bottom: 12px;
   }
