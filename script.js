@@ -8,14 +8,15 @@ const routes = {
   investments: { path: "/investments", title: "Investments | SOLVS Ventures" },
   company: { path: "/about-us", title: "About Us | SOLVS Ventures" },
   about: { path: "/team", title: "Team | SOLVS Ventures" },
-  contact: { path: "/team", title: "Team | SOLVS Ventures" }
+  contact: { path: "/contact", title: "Contact | SOLVS Ventures" }
 };
 
 const pathToSlide = {
   "/": "home",
   "/investments": "investments",
   "/about-us": "company",
-  "/team": "about"
+  "/team": "about",
+  "/contact": "contact"
 };
 
 let navigationTarget = null;
