@@ -9,5 +9,6 @@ Solus Ventures focuses on category-defining companies across frontier technology
 - [Solus Ventures](https://solusvc.com/)
 - [Investments](https://solusvc.com/investments/)
 - [Investment approach](https://solusvc.com/about-us/)
+- [Venture capital perspectives](https://solusvc.com/insights/)
 - [Team](https://solusvc.com/team/)
 - [Contact](https://solusvc.com/contact/)
