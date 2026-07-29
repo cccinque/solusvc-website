@@ -141,7 +141,7 @@ body.is-dark-slide .site-nav a:focus-visible {
 .logo-slide {
   isolation: isolate;
   background-color: #8ba5bb;
-  background-image: url("assets/hero-background-solus-blue.png");
+  background-image: url("/assets/hero-background-solus-blue.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
