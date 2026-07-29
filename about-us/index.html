@@ -48,7 +48,7 @@
         ]
       }
     </script>
-    <link rel="preload" href="/assets/solvs-logo.png" as="image">
+    <link rel="preload" href="/assets/solvs-logo-small.png" as="image" fetchpriority="high">
     <link rel="preload" href="/assets/hero-background-solus-blue.png" as="image" media="(min-width: 761px)" fetchpriority="high">
     <link rel="preload" href="/assets/hero-background-bond-mobile.jpg" as="image" media="(max-width: 760px)" fetchpriority="high">
   <link rel="stylesheet" href="/styles.css?v=9">
@@ -56,7 +56,7 @@
   <body>
     <header class="site-header" data-header>
       <a class="brand" href="/" data-route="home" aria-label="SOLVS Ventures home">
-        <img src="/assets/solvs-logo.png" alt="Solus Ventures" width="1943" height="402">
+        <img src="/assets/solvs-logo-small.png" alt="Solus Ventures" width="512" height="106">
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="/" data-route="home">Home</a>
@@ -69,7 +69,7 @@
     <main>
       <section id="home" class="slide logo-slide">
         <div class="center-logo reveal">
-          <img src="/assets/solvs-logo.png" alt="Solus Ventures" width="1943" height="402">
+          <img src="/assets/solvs-logo-small.png" alt="Solus Ventures" width="512" height="106">
         </div>
         <a class="scroll-arrow" href="/" data-route="one-of-none" aria-label="Scroll to One of None">
           <svg viewBox="0 0 112 32" aria-hidden="true">
@@ -94,10 +94,10 @@
           <div class="slide-kicker">Our Investments</div>
           <div class="investment-grid" aria-label="Select investments">
             <div class="investment-logo" aria-label="SpaceX">
-              <img src="/assets/spacex-logo.svg" alt="SpaceX">
+              <img src="/assets/spacex-logo.svg" alt="SpaceX" loading="lazy" decoding="async">
             </div>
             <div class="investment-logo" aria-label="xAI">
-              <img src="/assets/xai-logo.svg" alt="xAI">
+              <img src="/assets/xai-logo.svg" alt="xAI" loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@
       <section id="about" class="slide founder-slide">
         <div class="founder-layout reveal">
           <div class="founder-photo">
-            <img src="/assets/connor.jpg" alt="Connor Cinquegrana" width="1457" height="1710">
+            <img src="/assets/connor.jpg" alt="Connor Cinquegrana" width="1457" height="1710" loading="lazy" decoding="async">
           </div>
           <div class="about-text">
             <span>Founder &amp; Managing Partner</span>
@@ -169,14 +169,14 @@
 
       <section id="contact" class="slide contact-slide">
         <div class="contact-content reveal">
-          <img src="/assets/solvs-logo.png" alt="Solus Ventures" width="1943" height="402">
+          <img src="/assets/solvs-logo-small.png" alt="Solus Ventures" width="512" height="106">
           <p>New York City and San Francisco</p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <img src="/assets/solvs-logo.png" alt="Solus Ventures" width="1943" height="402">
+      <img src="/assets/solvs-logo-small.png" alt="Solus Ventures" width="512" height="106">
     </footer>
 
   <script src="/script.js?v=11"></script>
