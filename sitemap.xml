@@ -112,4 +112,12 @@
       <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://solusvc.com/insights/venture-capital-portfolio-construction/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
+  </url>
 </urlset>
