@@ -24,3 +24,4 @@ Solus Ventures focuses on category-defining companies across frontier technology
 - [Venture capital due diligence: an evidence-based framework](https://solusvc.com/insights/venture-capital-due-diligence/)
 - [Growth equity investing: quality, durability, and price](https://solusvc.com/insights/growth-equity-investing/)
 - [Deep tech investing: technical risk, scale, and markets](https://solusvc.com/insights/deep-tech-investing/)
+- [Venture capital portfolio construction: concentration, reserves, and ownership](https://solusvc.com/insights/venture-capital-portfolio-construction/)
