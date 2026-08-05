@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://solusvc.com/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solvs-logo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/investments/</loc>
@@ -19,6 +23,9 @@
     <loc>https://solusvc.com/team/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/connor-800.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/contact/</loc>
@@ -29,50 +36,80 @@
     <loc>https://solusvc.com/insights/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/one-of-none-companies/</loc>
     <lastmod>2026-07-29</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/frontier-technology-investing/</loc>
     <lastmod>2026-07-29</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/private-technology-underwriting/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/artificial-intelligence-investing/</loc>
     <lastmod>2026-07-29</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/defense-technology-investing/</loc>
     <lastmod>2026-07-29</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/aerospace-investing/</loc>
     <lastmod>2026-07-29</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/venture-capital-due-diligence/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/growth-equity-investing/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://solusvc.com/insights/deep-tech-investing/</loc>
     <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solusvc.com/assets/solus-perspectives-og.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>
