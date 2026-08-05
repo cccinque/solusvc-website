@@ -142,6 +142,10 @@ body.is-dark-slide .site-nav a:focus-visible {
   isolation: isolate;
   background-color: #8ba5bb;
   background-image: url("/assets/hero-background-solus-blue.png");
+  background-image: image-set(
+    url("/assets/hero-background-solus-blue.webp") type("image/webp"),
+    url("/assets/hero-background-solus-blue.png") type("image/png")
+  );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -485,6 +489,10 @@ body.is-dark-slide .site-nav a:focus-visible {
   .logo-slide {
     background-color: #8faabd;
     background-image: url("/assets/hero-background-bond-mobile.jpg");
+    background-image: image-set(
+      url("/assets/hero-background-bond-mobile.webp") type("image/webp"),
+      url("/assets/hero-background-bond-mobile.jpg") type("image/jpeg")
+    );
     background-blend-mode: normal;
     background-position: center;
     background-size: cover;
