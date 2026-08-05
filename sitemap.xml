@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://solusvc.com/insights/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -58,6 +58,21 @@
   <url>
     <loc>https://solusvc.com/insights/aerospace-investing/</loc>
     <lastmod>2026-07-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://solusvc.com/insights/venture-capital-due-diligence/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://solusvc.com/insights/growth-equity-investing/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://solusvc.com/insights/deep-tech-investing/</loc>
+    <lastmod>2026-08-05</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

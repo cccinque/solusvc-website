@@ -21,3 +21,6 @@ Solus Ventures focuses on category-defining companies across frontier technology
 - [Artificial intelligence investing: evaluating durable advantage](https://solusvc.com/insights/artificial-intelligence-investing/)
 - [Defense technology investing: from mission need to deployment](https://solusvc.com/insights/defense-technology-investing/)
 - [Aerospace investing: milestones, manufacturing, and markets](https://solusvc.com/insights/aerospace-investing/)
+- [Venture capital due diligence: an evidence-based framework](https://solusvc.com/insights/venture-capital-due-diligence/)
+- [Growth equity investing: quality, durability, and price](https://solusvc.com/insights/growth-equity-investing/)
+- [Deep tech investing: technical risk, scale, and markets](https://solusvc.com/insights/deep-tech-investing/)
