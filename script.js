@@ -5,10 +5,10 @@ const slides = document.querySelectorAll(".slide");
 const routes = {
   home: { path: "/", title: "Solus Ventures | Venture Capital for One-of-None Companies" },
   "one-of-none": { path: "/", title: "Solus Ventures | Venture Capital for One-of-None Companies" },
-  investments: { path: "/investments", title: "Investments | Solus Ventures" },
-  company: { path: "/about-us", title: "About Solus Ventures | One-of-None Venture Capital" },
-  about: { path: "/team", title: "Connor Cinquegrana | Founder of Solus Ventures" },
-  contact: { path: "/contact", title: "Contact | Solus Ventures" }
+  investments: { path: "/investments/", title: "Investments | Solus Ventures" },
+  company: { path: "/about-us/", title: "About Solus Ventures | One-of-None Venture Capital" },
+  about: { path: "/team/", title: "Connor Cinquegrana | Founder of Solus Ventures" },
+  contact: { path: "/contact/", title: "Contact | Solus Ventures" }
 };
 
 const pathToSlide = {
@@ -30,7 +30,7 @@ const setRoute = (slideId, mode = "replace") => {
   const route = routes[slideId] || routes.home;
   const method = mode === "push" ? "pushState" : "replaceState";
 
-  if (normalizedPath() !== route.path) {
+  if (window.location.pathname !== route.path) {
     window.history[method]({ slideId }, "", route.path);
   }
 
