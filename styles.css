@@ -450,7 +450,9 @@ body.is-dark-slide .site-nav a:focus-visible {
 }
 
 .logo-slide .center-logo.reveal {
-  transform: translateY(-10px);
+  opacity: 1;
+  transform: translateY(-28px);
+  transition: none;
 }
 
 .logo-slide .center-logo.reveal.is-visible {
