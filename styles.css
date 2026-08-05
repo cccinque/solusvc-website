@@ -303,6 +303,7 @@ body.is-dark-slide .site-nav a:focus-visible {
 .founder-photo img {
   display: block;
   width: min(430px, 100%);
+  height: auto;
   max-height: 68vh;
   object-fit: contain;
   filter: grayscale(1);
